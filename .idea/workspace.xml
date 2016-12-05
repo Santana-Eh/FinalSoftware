@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="tests" name="Unittests in newfile" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="892118c0-b68a-4c3a-afdc-695c52da9d39" name="Default" comment="" />
     <ignored path="FinalSoftware.iws" />
@@ -14,8 +22,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FinalSoftware$Unittests_in_FinalSoftware__1_.coverage" NAME="Unittests in FinalSoftware (1) Coverage Results" MODIFIED="1479952972510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FinalSoftware$password.coverage" NAME="password Coverage Results" MODIFIED="1480804488870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/profiles" />
-    <SUITE FILE_PATH="coverage/FinalSoftware$Test__db_sqlite3.coverage" NAME="Test: db.sqlite3 Coverage Results" MODIFIED="1480804031320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/FinalSoftware$Unittests_in_newfile.coverage" NAME="Unittests in newfile Coverage Results" MODIFIED="1480914241356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/profiles" />
+    <SUITE FILE_PATH="coverage/FinalSoftware$password.coverage" NAME="password Coverage Results" MODIFIED="1480900013464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/profiles" />
+    <SUITE FILE_PATH="coverage/FinalSoftware$testing.coverage" NAME="testing Coverage Results" MODIFIED="1480900190336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/profiles" />
+    <SUITE FILE_PATH="coverage/FinalSoftware$Test__db_sqlite3.coverage" NAME="Test: db.sqlite3 Coverage Results" MODIFIED="1480902315303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -41,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -83,7 +93,6 @@
         <option value="/CSS Fragment (signup.html:390).css" />
         <option value="$PROJECT_DIR$/profiles/templates/accounts/signup.html" />
         <option value="$PROJECT_DIR$/profiles/templates/account/signup.html" />
-        <option value="$PROJECT_DIR$/profiles/forms.py" />
         <option value="$PROJECT_DIR$/profiles/signals.py" />
         <option value="$PROJECT_DIR$/profiles/app_settings.py" />
         <option value="$PROJECT_DIR$/profiles/templates/account/logout.html" />
@@ -92,14 +101,22 @@
         <option value="$PROJECT_DIR$/profiles/templates/home.html" />
         <option value="$PROJECT_DIR$/profiles/templates/profile.html" />
         <option value="$PROJECT_DIR$/profiles/templates/base.html" />
-        <option value="$PROJECT_DIR$/FinalSoftware/urls.py" />
-        <option value="$PROJECT_DIR$/profiles/templates/navbar.html" />
-        <option value="$PROJECT_DIR$/support/views.py" />
         <option value="$PROJECT_DIR$/profiles/test_userProfile.py" />
-        <option value="$PROJECT_DIR$/profiles/views.py" />
-        <option value="$PROJECT_DIR$/profiles/models.py" />
         <option value="$PROJECT_DIR$/FinalSoftware/settings.py" />
         <option value="$PROJECT_DIR$/profiles/password.py" />
+        <option value="$PROJECT_DIR$/profiles/tests.py" />
+        <option value="$PROJECT_DIR$/profiles/newfile.py" />
+        <option value="$PROJECT_DIR$/profiles/models.py" />
+        <option value="$PROJECT_DIR$/support/test_support.py" />
+        <option value="$PROJECT_DIR$/profiles/testing.py" />
+        <option value="$PROJECT_DIR$/profiles/forms.py" />
+        <option value="$PROJECT_DIR$/FinalSoftware/urls.py" />
+        <option value="$PROJECT_DIR$/profiles/templates/account/registration_form.html" />
+        <option value="$PROJECT_DIR$/support/views.py" />
+        <option value="$PROJECT_DIR$/profiles/views.py" />
+        <option value="$PROJECT_DIR$/profiles/templates/navbar.html" />
+        <option value="$PROJECT_DIR$/transactions/models.py" />
+        <option value="$PROJECT_DIR$/profiles/hasher.py" />
       </list>
     </option>
   </component>
@@ -159,6 +176,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinalSoftware" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -183,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
+              <option name="myItemId" value="transactions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,10 +288,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Git Shell.lnk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Advanced" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Mr.Robot/PythonVirtualEnv/FinalSoftware/profiles/templates/home.html" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
@@ -272,12 +299,15 @@
     <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mr.Robot\PythonVirtualEnv\FinalSoftware\profiles\templates\account" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mr.Robot\PythonVirtualEnv\FinalSoftware\profiles\templates" />
       <recent name="C:\Users\Mr.Robot\PythonVirtualEnv\FinalSoftware\support\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.password">
+  <component name="RunManager" selected="Python tests.Unittests in newfile">
     <configuration default="false" name="Test: db.sqlite3" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,29 +326,6 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in FinalSoftware" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FinalSoftware" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
-      <option name="TEST_TYPE" value="TEST_FOLDER" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Unittests in FinalSoftware (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -360,6 +367,47 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profiles/password.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/profiles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FinalSoftware" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profiles/testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in newfile" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/profiles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FinalSoftware" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profiles/newfile.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -623,19 +671,21 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.FinalSoftware" />
       <item index="1" class="java.lang.String" itemvalue="Django tests.Test: db.sqlite3" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in FinalSoftware" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in FinalSoftware (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.password" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in FinalSoftware (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.password" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testing" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in newfile" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.password" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in newfile" />
         <item index="1" class="java.lang.String" itemvalue="Django tests.Test: db.sqlite3" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in FinalSoftware (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in FinalSoftware" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testing" />
+        <item index="3" class="java.lang.String" itemvalue="Python.password" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in FinalSoftware (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -653,14 +703,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__db_sqlite3 - 2016.11.21 at 05h 16m 18s.xml">
-      <configuration name="Test: db.sqlite3" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Unittests_in_newfile - 2016.12.04 at 23h 57m 49s.xml">
+      <configuration name="Unittests in newfile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Test__db_sqlite3 - 2016.12.03 at 17h 27m 15s.xml">
-      <configuration name="Test: db.sqlite3" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Unittests_in_newfile - 2016.12.04 at 23h 58m 20s.xml">
+      <configuration name="Unittests in newfile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_FinalSoftware_(1) - 2016.11.23 at 21h 03m 04s.xml">
-      <configuration name="Unittests in FinalSoftware (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_newfile - 2016.12.05 at 00h 01m 11s.xml">
+      <configuration name="Unittests in newfile" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_newfile - 2016.12.05 at 00h 01m 20s.xml">
+      <configuration name="Unittests in newfile" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_newfile - 2016.12.05 at 00h 01m 29s.xml">
+      <configuration name="Unittests in newfile" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_newfile - 2016.12.05 at 00h 01m 44s.xml">
+      <configuration name="Unittests in newfile" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_newfile - 2016.12.05 at 00h 03m 17s.xml">
+      <configuration name="Unittests in newfile" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_newfile - 2016.12.05 at 00h 03m 23s.xml">
+      <configuration name="Unittests in newfile" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_newfile - 2016.12.05 at 00h 03m 36s.xml">
+      <configuration name="Unittests in newfile" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_newfile - 2016.12.05 at 00h 04m 04s.xml">
+      <configuration name="Unittests in newfile" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -676,24 +747,25 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3308668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42049092" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27484143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41966173" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4164905" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -719,14 +791,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/accounts/templates/log1.html" />
-    <entry file="file://$PROJECT_DIR$/banking/models.py" />
-    <entry file="file://$PROJECT_DIR$/banking/views.py" />
-    <entry file="file://$PROJECT_DIR$/accounts/log1.py" />
-    <entry file="file://$PROJECT_DIR$/accounts/shortcuts.py" />
-    <entry file="file://$PROJECT_DIR$/accounts/templates/auth.html" />
-    <entry file="file://$PROJECT_DIR$/accounts/templates/login.html" />
-    <entry file="file://$PROJECT_DIR$/accounts/templates/invalid.html" />
     <entry file="file://$PROJECT_DIR$/accounts/templates/logout.html" />
     <entry file="file://$PROJECT_DIR$/../Lib/site-packages/django_allauth-0.28.0.dist-info/INSTALLER" />
     <entry file="file://$PROJECT_DIR$/../Lib/site-packages/django_allauth-0.28.0.dist-info/RECORD" />
@@ -740,13 +804,6 @@
     <entry file="file://$PROJECT_DIR$/accounts/views.py" />
     <entry file="file://$PROJECT_DIR$/accounts/templates/loggedin.html" />
     <entry file="file://$PROJECT_DIR$/accounts/templates/sign_up.html" />
-    <entry file="file://$PROJECT_DIR$/FinalSoftware/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/templates/auth_view.html" />
     <entry file="file://$PROJECT_DIR$/accounts/templates/invalid_login.html" />
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -762,7 +819,6 @@
     <entry file="file://$PROJECT_DIR$/profiles/templates/accounts/signup.html" />
     <entry file="file://$PROJECT_DIR$/profiles/signals.py" />
     <entry file="file://$PROJECT_DIR$/profiles/app_settings.py" />
-    <entry file="file://$PROJECT_DIR$/profiles/forms.py" />
     <entry file="file://$PROJECT_DIR$/support/templates/support.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -785,48 +841,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profiles/test_userProfile.py" />
-    <entry file="file://$PROJECT_DIR$/profiles/templates/account/logout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -834,46 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalSoftware/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="184" column="12" lean-forward="false" selection-start-line="184" selection-start-column="12" selection-end-line="192" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalSoftware/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -912,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/password.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -926,10 +897,199 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FinalSoftware/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="181" column="19" lean-forward="true" selection-start-line="166" selection-start-column="4" selection-end-line="181" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/newfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/test_support.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django-1.10.2-py2.7.egg/django/test/testcases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12557">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/account/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/account/registration_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/account/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/account/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalSoftware/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#647#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalSoftware/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2688">
+          <caret line="191" column="32" lean-forward="true" selection-start-line="191" selection-start-column="32" selection-end-line="191" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transactions/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/hasher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

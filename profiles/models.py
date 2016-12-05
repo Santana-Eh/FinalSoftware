@@ -14,4 +14,3 @@ class profile(models.Model):
 
 
 
-

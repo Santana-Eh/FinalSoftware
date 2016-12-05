@@ -11,7 +11,6 @@ def support(request):
     form = supportForm(request.POST or None)
     context= {'title': title, 'form': form}
 
-
     if form.is_valid():
         print
         name = form.cleaned_data['Name']

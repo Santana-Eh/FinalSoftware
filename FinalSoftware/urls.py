@@ -27,6 +27,7 @@ urlpatterns = [
     url(r'^$', profiles_views.home, name='home'),
     url(r'^support/$', support_views.support, name='support'),
     url(r'^profile/$', profiles_views.userProfile, name='profile'),
+    url(r'^register/$', profiles_views.UserFormView, name='register'),
     url(r'^account/', include('allauth.urls')),
 
 
