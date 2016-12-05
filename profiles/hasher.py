@@ -12,7 +12,7 @@ from django.urls import reverse
     ACCOUNT_AUTHENTICATION_METHOD=settings.AuthenticationMethod.USERNAME,
     ACCOUNT_SIGNUP_FORM_CLASS=None,
     ACCOUNT_EMAIL_SUBJECT_PREFIX=None,
-    LOGIN_REDIRECT_URL='/accounts/profile/',
+    LOGIN_REDIRECT_URL='/account/profile/',
     ACCOUNT_ADAPTER='allauth.account.adapter.DefaultAccountAdapter',
     ACCOUNT_USERNAME_REQUIRED=True)
 
@@ -20,16 +20,16 @@ from django.urls import reverse
     ACCOUNT_AUTHENTICATION_METHOD=settings.AuthenticationMethod
         .USERNAME_EMAIL)
 def test_username_containing_at(self):
-    user = get_user_model().objects.create(username='@raymond.penners')
-    user.set_password('psst')
+    user = get_user_model().objects.create(username='@santana.allen')
+    user.set_password('woot')
     user.save()
     EmailAddress.objects.create(user=user,
-                                email='raymond.penners@gmail.com',
+                                email='santana.allen@gmail.com',
                                 primary=True,
                                 verified=True)
     resp = self.client.post(reverse('account_login'),
-                            {'login': '@raymond.penners',
-                             'password': 'psst'})
+                            {'login': '@santana.allen@gmail.com',
+                             'password': 'woot'})
     self.assertRedirects(resp,
                          'http://testserver'+settings.LOGIN_REDIRECT_URL,
                          fetch_redirect_response=False)
